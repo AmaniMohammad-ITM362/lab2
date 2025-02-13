@@ -4,10 +4,14 @@ body {
     color: rgb(54, 9, 23);
     align-items: center;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 form {
-    background: rgba(168, 102, 199, 0.5);
+    background: rgba(187, 129, 214);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(83, 3, 50, 0.5);
@@ -15,18 +19,30 @@ form {
     max-width: 450px;
     display: flex;
     flex-direction: column;
+   
 }
 
+div{
+    padding: 10px;
+}
 input {
     padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
 }
 
 button {
-    background: rgb(133, 33, 133);
-    color: rgb(22, 2, 26);
+    background: rgb(133, 58, 133);
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 480px) {
